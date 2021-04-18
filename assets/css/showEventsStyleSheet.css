@@ -1,0 +1,105 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+			
+			#myDiv{
+				margin-top: 15px;
+			}
+			
+			.header{
+				width: 920px;
+				height: 100%;
+				float: right;
+				height: 120px;
+				margin-top: 3px;
+				
+			}
+
+			.form {
+			  position: fixed;
+			  float: left;
+			  z-index: 1;
+			  background: #FFFFFF;
+			  max-width: 435px;
+			  padding: 45px;
+			  margin-top: 5px;
+			  margin-left: 25px;
+			  height: 96%;
+			  text-align: center;
+			  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+			}
+			
+			.form input {
+			  font-family: "Roboto", sans-serif;
+			  outline: 0;
+			  background: #f2f2f2;
+			  width: 100%;
+			  border: 0;
+			  margin: 0 0 15px;
+			  padding: 15px;
+			  box-sizing: border-box;
+			  font-size: 14px;
+			}
+			.form button {
+			  font-family: "Roboto", sans-serif;
+			  text-transform: uppercase;
+			  outline: 0;
+			  background: #4CAF50;
+			  width: 100%;
+			  border: 0;
+			  padding: 15px;
+			  color: #FFFFFF;
+			  font-size: 14px;
+			  -webkit-transition: all 0.3 ease;
+			  transition: all 0.3 ease;
+			  cursor: pointer;
+			}
+			
+			#einfo{
+			  font-family: "Roboto", sans-serif;
+			  outline: 0;
+			  background: #f2f2f2;
+			  width: 100%;
+			  border: 0;
+			  height: 40%;
+			  margin: 0 0 15px;
+			  padding: 15px;
+			  box-sizing: border-box;
+			  font-size: 14px;
+			}
+			
+			.form button:hover,.form button:active,.form button:focus {
+			  background: #43A047;
+			}
+			
+			.dayEventsHeader{
+				background: white;
+				height: 120px;
+				align-items: center;
+				text-align: center;
+				margin-left: 10px;
+				width: 65%;
+				position:fixed	;
+				box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+			}
+			
+			.dayEvents{
+				background: white;
+				height: 525px;
+				width: 65%;
+				margin-left: 10px;
+				margin-top: 135px;
+				background: #f2f2f2;
+				padding-left: 60px;
+				padding-top: 20px;
+				font-size: 140%;
+				position: fixed;
+			}
+			
+			#eventHeader{
+				margin-top:30px;
+			}
+			
+			.backArrow{
+				position: absolute;
+				top: 30px;
+				left: 40px;
+			}
